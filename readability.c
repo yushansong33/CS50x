@@ -14,7 +14,6 @@ int main(void)
     string input = get_string("Text: ");
 
     int length = strlen(input);
-
     for (int i = 0; i < length; i++)
     {
         if (isalnum(input[i]) != 0)
