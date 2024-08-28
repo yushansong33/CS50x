@@ -9,7 +9,6 @@ int checkAlpha(string a);
 int checkOnce(string c);
 string check_cipher(string plain, string key);
 
-
 int main(int argc, string argv[])
 {
     if (argc != 2)
